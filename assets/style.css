@@ -225,13 +225,13 @@ textarea {
   font-size: 20px;
 }
 
-.project-list .row .col .time{
+.project-list .row .col .time {
   margin: 5px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.project-list .row .col .time p{
+.project-list .row .col .time p {
   font-size: 12px;
 }
 
@@ -240,11 +240,11 @@ textarea {
   line-height: 18px;
 }
 
-.project-list .row .col .icon-group{
+.project-list .row .col .icon-group {
   margin-top: 10px;
 }
 
-.project-list .row .col .icon-group i{
+.project-list .row .col .icon-group i {
   margin-right: 10px;
   font-size: 24px;
 }
@@ -275,4 +275,65 @@ textarea {
 
 .project-list .row .col .btn-action .delete {
   margin-left: 2px;
+}
+
+/* My Project Style */
+
+.myProject {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+
+.myProject h1 {
+  text-align: center;
+}
+
+.myProject .myProject-group {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+
+.myProject .myProject-group .left-side-project {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.myProject .myProject-group .left-side-project img {
+  width: 100%;
+  height: 300px;
+}
+
+.myProject .myProject-group .right-side-group-project {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.myProject .myProject-group .right-side-group-project h4,
+p {
+  margin-bottom: 10px;
+}
+
+.myProject .myProject-group .right-side-group-project .top-project {
+  width: 100%;
+  height: 125px;
+}
+
+.myProject .myProject-group .right-side-group-project .bottom-project {
+  width: 100%;
+  height: 125px;
+}
+
+.myProject .myProject-group .right-side-group-project .bottom-project table td {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.myProject .desc-Project p {
+  margin: unset;
+  text-align: justify;
+  font-size: 16px;
 }
